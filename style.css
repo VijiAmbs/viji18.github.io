@@ -19,7 +19,7 @@
 }
 
 .logo{
-	width: 400px;
+	width: 50px;
 	cursor: pointer;
 	margin:30px 0 ;
 }
@@ -52,6 +52,10 @@ a{
 }
 
 
+
+/*   Hero Section   */
+
+
 .heroImg{
 	padding: 15px;
 	justify-content: space-between;
@@ -66,7 +70,7 @@ a{
 	padding-top: 20px;
 	color: #FFF;
 	text-align: center;
-	font-size: 20px;
+	font-size: 22px;
 	opacity: 0;
 }
 
@@ -111,6 +115,9 @@ a{
 
 
 
+/*   My Work Section   */
+
+
 
 .myWork{
 	padding: 10px;
@@ -143,7 +150,7 @@ a{
 }
 
 .item3 img{
-	height: 400px;
+	height: 66%;
 }
 
 .item3 button{
@@ -151,6 +158,7 @@ a{
 }
 
 .myWork img{
+	width: 60%;
 	border-style: solid;
 }
 
@@ -170,6 +178,11 @@ a{
 }
 
 
+
+/*   My Skills Section   */
+
+
+
 .mySkills{
 	padding: 30px;
 	margin-left: 0px;
@@ -186,7 +199,7 @@ a{
 
 .flex{
 	padding: 20px;
-	padding-left: 225px;
+	padding-left: 15%;
 }
 
 .flexContainer img{
@@ -194,6 +207,7 @@ a{
 }
 
 
+/*  Footer Section  */
 
 
 footer{
@@ -207,16 +221,18 @@ footer ul{
 }
 
 .footer{
-	color: #FFF;
-	text-align: center;
+	margin-left: 35%;
 	list-style: none;
+}
+
+footer h1{
+	color: #FFF;
+	text-align: center;	
 }
 
 
 .footer i{
 	padding: 10px;
-	margin-left: 430px;
-	padding-left: 10px;
 }
 
 .footer button{
@@ -293,6 +309,7 @@ nav ul li{
   	margin-right: 5px;
   	margin-left: 5px;
 	margin-top: 40px;
+	left: 10%;
 }
 
 .myWork{
@@ -329,8 +346,7 @@ section .mySkills{
 }
 
 .flex{
-	padding: 0px;
-	padding-left: 150px;
+	padding-left: 25%;
 }
 
 
@@ -341,13 +357,9 @@ footer{
 }
 
 footer ul{
-	display:block;
+	display:flex;
 }
 
-.footer{
-	color: #FFF;
-	text-align: center;
-}
 
 
 .footer i{
@@ -361,6 +373,36 @@ footer ul{
 	margin-left: 50px;
 	padding: 10px;
 	border-radius: 15px;
+}
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+.hero{
+	width: 200px;
+	height: 210px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.circle {
+  	width: 225px;
+  	height: 250px;
+  	margin-right: 10px;
+  	margin-left: 0px;
+	margin-top: 40px;
+  	left: 20%;
+}
+
+}
+
+@media only screen and (max-width: 300px) {
+
+
+.circle {
+  	left: 10%;
 }
 
 }
