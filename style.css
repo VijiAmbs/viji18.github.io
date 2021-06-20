@@ -2,8 +2,8 @@
 
 *{
 	font-family: 'Noto Sans JP', sans-serif;
-	margin: 10;
-	padding: 10;
+	margin: 0;
+	padding: 0;
 }
 
 .navigation{
@@ -19,7 +19,7 @@
 }
 
 .logo{
-	width: 100px;
+	width: 250px;
 	cursor: pointer;
 	margin:30px 0 ;
 }
